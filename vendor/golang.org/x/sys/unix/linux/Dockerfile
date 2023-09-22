@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:lunar-20230731
 
 # Use the most recent ubuntu sources
 RUN echo 'deb http://en.archive.ubuntu.com/ubuntu/ artful main universe' >> /etc/apt/sources.list
